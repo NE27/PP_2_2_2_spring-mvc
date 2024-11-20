@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 @Service
 public class CarService {
 
-    private List<Car> cars = Arrays.asList(
+    private final List<Car> cars = Arrays.asList(
             new Car("Red", "Tesla", 2020),
             new Car("Blue", "Ford", 2018),
             new Car("White", "Honda", 2019),
